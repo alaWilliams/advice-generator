@@ -45,8 +45,6 @@
 }
 
 .divider {
-  /* background-image: url(../images/pattern-divider-mobile.svg); */
-  background-size: 100% 100%;
   height: 25%;
   width: 100%;
 }
@@ -63,6 +61,24 @@
 .advice-content {
   height: 50%;
   color: hsl(193, 38%, 86%);
+  display:flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   width: 80%;
+}
+
+@media screen and (min-width: 768px) {
+  .section {
+    width: 70%;
+    height: 40vh;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .section{
+    width: 50%;
+    height: 30vh;
+    border-radius: 3%;
+  }
 }
