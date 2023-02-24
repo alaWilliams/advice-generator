@@ -78,7 +78,6 @@
 @media screen and (min-width: 1024px) {
   .section{
     width: 50%;
-    height: 30vh;
     border-radius: 3%;
   }
 }
